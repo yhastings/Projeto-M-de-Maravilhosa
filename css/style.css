@@ -1,0 +1,337 @@
+* {
+    font-family: 'montserrat', 'arial', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #63458a;
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav li {
+    margin-left: 100px;
+    color: white;
+}
+
+nav img {
+    width: 19%;
+    height: 5%;
+}
+
+header  {
+    background-image: url(../img/bg-banner-claro.png);
+    background-size: cover;
+    min-height: 85vh;
+    background-color: #63458a;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.headperfil {
+    background-image: url(../img/bg-banner-escuro.png);
+    background-size: cover;
+    min-height: 33vh;
+    justify-content: space-between;
+}
+
+.headersobre {
+    background-image: url(../img/bg-banner-escuro.png);
+    background-size: cover;
+    min-height: 33vh;
+    justify-content: space-between;
+}
+
+.tituperfil {
+    color: white;
+    font-weight: 900;
+    margin-left: 14%;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+.principal {
+    margin-left: -21%;
+    margin-bottom: 3%;
+    width: 48%;
+    color: white;
+}
+
+.principal h1 {
+    font-size: 32px;
+}
+
+.bb {
+    background-color: #C083B9;
+    width: 47%;
+    padding: 2%;
+    text-align: center;
+    border-radius: 4%;
+}
+
+@media (max-width: 360px) {
+    .principal h1 {
+        font-size: 20px;
+    }
+
+    .bb  {
+        width: 170px;
+    }
+
+    .ajust img {
+        width: 260px;
+    }
+
+    .mulheres {
+        justify-content: center;
+    }
+
+    .teste {
+        margin: 0;
+        
+    }
+}
+
+@media (min-width: 360px) and (max-width: 764px) {
+    .principal h1 {
+        font-size: 30px;
+    }
+    .bb  {
+        width: 170px;
+    }
+
+}
+
+.principal a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.cont h2 {
+    text-align: center;
+    color: #674681;
+    font-weight: 900;
+}
+
+.conteudooneperfil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+.sobreconteudoone {
+    text-align: center;
+}
+
+.text {
+    width: 53%;
+    margin: 0 auto;
+}
+
+.div {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: flex-end;
+}
+
+.womans {
+    width: 183px;
+    background-color: #63458a;
+    height: 139px;
+    border-radius: 8%;
+    margin-left: 20%;
+}
+
+.imaga {
+    width: 402px;
+    height: 79px;
+    background: #674582;
+    margin: 0 auto;
+}
+
+.fatos {
+    display: flex;
+    margin-top: 7%;
+    flex-wrap: wrap;
+}
+
+.cincopor{
+    margin-left: 23%;
+    font-size: 60px;
+    font-weight: 900;
+    
+}
+
+.equipe {
+    background-color: #A570A9;
+    text-align: center;
+}
+
+.prepara {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.oneindex {
+    background-color: #7e5a9b;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-weight: 900;
+}
+
+.central {
+    text-align: center;
+    padding: 3%;
+    color: #63458a;
+}
+
+.central h2 {
+    margin-top: -1%;
+    margin-bottom: 5%;
+}
+
+.prototipo {
+    width: 150px;
+    background-color: #63458a;
+    height: 150px;
+    border-radius: 8%;
+}
+
+.prototipofour {
+    width: 7%;
+    height: 102px;
+    background-color: white;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.prototipofours {
+    width: 7%;
+    height: 102px;
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.teste {
+    margin-left: 17%;
+}
+
+.mulheres {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttontwo {
+    margin-top: 4%;
+}
+
+.buttontwo a {
+    background-color: #C083B9;
+    padding: 15px 47px;
+    border-radius: 11px;
+    text-decoration: none;
+    color: white;
+}
+
+.criadoras {
+    background-color: #63458a;
+    text-align: center;
+    padding: 6%
+}
+
+.criadoras h2 {
+    margin-bottom: 6%;
+    margin-top: -2%;
+    color: white;
+}
+
+.prototipotwo {
+    width: 109px;
+    height: 105px;
+    background-color: white;
+    margin-left: 69px;
+    margin-bottom: 24px;
+
+}
+
+.buttonthere {
+    margin-top: 5%;
+}
+
+.buttonthere a {
+    background-color: #C083B9;
+    padding: 15px 47px;
+    border-radius: 11px;
+    text-decoration: none;
+    color: white;
+}
+
+.org {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #323534;
+    text-align: center;
+    color: white;
+}
+
+.infofooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.infofooter li {
+    list-style-type: none;
+    margin-top: 13px;
+}
+
+
+.logotipo p {
+    width: 39%;
+    margin-left: 32%;
+    color: black;
+    margin-top: -1%
+}
+
+.logotipo img {
+    max-width: 200px;
+}
+
+.face {
+    display: flex;
+}
+
+.face img {
+    max-width: 60px;
+    max-height: 50px;
+}
+
+.copy {
+    background-color: #292A2A
+}
+
+.copy p {
+    margin: 0;
+}
